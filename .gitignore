@@ -1,0 +1,90 @@
+# === Carpetas de trabajo temporal ===
+
+**/output/
+**/build/
+**/export/
+**/tmp/
+**/temp/
+
+# === Archivos generados (renderizados o exportados) ===
+# *.png
+# *.jpg
+# *.jpeg
+# *.bmp
+# *.tiff
+# *.webp
+# *.pdf
+# *.mp4
+# *.gif
+# *.mov
+
+# === Archivos temporales del sistema operativo ===
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.nfs*
+
+# === Archivos temporales de editores de texto ===
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# === Software gráfico ===
+
+# GIMP
+*.xcf
+*.gimp-thumb*
+
+# Inkscape
+*.bak.svg
+
+# Krita
+*.kra
+*.krz
+
+# Photoshop
+*.psd
+*.psb
+
+# Illustrator
+*.ai
+*.ait
+
+# CorelDRAW
+*.cdr
+
+# Blender
+*.blend1
+*.blend2
+*.blend
+
+# Archivos de previsualización
+*.thumb.png
+*.preview.*
+
+# === Control de versiones u otros sistemas ===
+*.log
+*.lock
+*.cache
+*.db
+*.sqlite
+
+# === Node.js o Python (si existiera backend o scripts) ===
+node_modules/
+dist/
+.env
+__pycache__/
+*.pyc
+
+
