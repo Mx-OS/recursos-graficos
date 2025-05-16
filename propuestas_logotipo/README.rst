@@ -11,7 +11,7 @@ Estas son algunas propuestas que tienen el fin de recibir retroalimentaciones u 
 Generando PNGs
 ==============
 
-Para generar las imágenes PNG desde los archivos SVG:
+Para generar las imágenes PNG desde los archivos SVG (requiere inkscape):
 
 .. code-block:: bash
 
