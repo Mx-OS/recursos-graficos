@@ -1,22 +1,27 @@
 =================================
 Propuestas de Logotipo  ૮(•͈⌔•͈)ა 🇲🇽
-================================
+=================================
 
 Descripción
 ===========
-Estas son algunas propuestas estas tienen el fin de recibir retroalimentaciones u opiniones, con el fin de  trabajar con diferentes propuestas como formas, textos, colores, sin más quedo abierto a estas.
 
- 
-Generando PNGS
+Estas son algunas propuestas que tienen el fin de recibir retroalimentaciones u opiniones, con el fin de
+trabajar con diferentes propuestas como formas, textos, colores. Sin más, quedo abierto a estas.
+
+Generando PNGs
 ==============
 
-```bash
-make
-```
+Para generar las imágenes PNG desde los archivos SVG:
+
+.. code-block:: bash
+
+   make
 
 Limpiando archivos
-==============
+==================
 
-```bash
-make clean
-```
+Para eliminar los archivos generados:
+
+.. code-block:: bash
+
+   make clean
