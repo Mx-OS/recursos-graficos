@@ -5,8 +5,8 @@ Propuestas de Logotipo  ૮(•͈⌔•͈)ა 🇲🇽
 Descripción
 ===========
 
-Estas son algunas propuestas que tienen el fin de recibir retroalimentaciones u opiniones, con el fin de
-trabajar con diferentes propuestas como formas, textos, colores. Sin más, quedo abierto a estas.
+Estas son algunas propuestas que tienen el fin de recibir retroalimentaciones u opiniones, con el objetivo de trabajar con diferentes propuestas como: formas, fuentes, textos, colores, estilos entre otras.
+
 
 Generando PNGs
 ==============
