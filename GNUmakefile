@@ -30,7 +30,7 @@ $(OUTPUT_DIR):
 # $< representa el archivo de entrada (SVG)
 # $@ representa el archivo de salida (PNG)
 source/assets/%.png: source/assets/%.svg | $(OUTPUT_DIR)
-	inkscape $< -e $@                      # Usa Inkscape para convertir SVG a PNG
+	inkscape $< --export-filename="$@"                      # Usa Inkscape para convertir SVG a PNG
 
 # Regla para limpiar: elimina el directorio de salida y los archivos temporales generados por Sphinx
 clean:
