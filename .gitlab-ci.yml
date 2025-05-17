@@ -1,0 +1,39 @@
+# Fundación MX OS
+#       (o_
+#  (o_  //\
+#  (/)_ V_/_
+
+# Usa la imagen oficial de Python 3.11 como entorno base
+image: python:3.11
+
+# Define las etapas del pipeline
+stages:
+  - build  # Sólo tiene una etapa: build
+
+# Variables de entorno utilizadas durante el pipeline
+variables:
+  # Desactiva el chequeo de versión de pip para acelerar la instalación
+  PIP_DISABLE_PIP_VERSION_CHECK: "1"
+
+# Comandos que se ejecutan antes de cualquier job
+before_script:
+  # Actualiza los paquetes e instala las dependencias necesarias
+  - apt-get update && apt-get install -y \
+      inkscape \                       # Para convertir SVG a PNG
+      texlive-latex-recommended \     # Paquetes LaTeX recomendados
+      texlive-latex-extra \           # Paquetes LaTeX adicionales (tablas, símbolos, etc.)
+      texlive-fonts-recommended \     # Fuentes recomendadas para LaTeX
+      latexmk \                       # Utilidad para compilar documentos LaTeX
+      make \                          # Necesario para ejecutar el Makefile
+      git                             # Por si el proceso necesita git
+  # Instala Sphinx con pip
+  - pip install sphinx
+
+# Definición del job que construye el manual
+build_manual:
+  stage: build
+  script:
+    - make                             # Ejecuta el Makefile (genera PNGs y compila PDF con Sphinx)
+  artifacts:
+    paths:
+      - output/                        # Guarda el directorio output/ como artefacto del pipeline
