@@ -12,14 +12,14 @@ before_script:
   - apt-get install -y --no-install-recommends inkscape
   - apt-get install -y make gcc build-essential
   - pip install --upgrade pip
-  - pip install sphinx
+  - pip install sphinx sphinx-design
 
 build_manual:
   stage: build
   script:
-    - make
     - inkscape --version
     - man inkscape
+    - make
   artifacts:
     paths:
       - output/
