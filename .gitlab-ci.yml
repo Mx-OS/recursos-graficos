@@ -26,4 +26,5 @@ build_manual:
   artifacts:
     paths:
       - output/  # El PDF generado y los PNGs convertidos se guardan en este directorio
+      - propuesta_logotipo/output/    # PNGs de la subcarpeta de logotipos
     expire_in: 1 week  # Los artefactos estarán disponibles durante una semana

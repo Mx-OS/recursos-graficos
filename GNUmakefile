@@ -19,6 +19,7 @@ PNG_FILES = $(patsubst source/assets/%.svg,source/assets/%.png,$(SVG_FILES))
 
 # Objetivo por defecto: genera PNGs desde los SVGs y luego compila el PDF
 all: $(PNG_FILES)
+	make -C ./propuestas_logotipo  # Compila los PNGs de propuesta_logotipo/
 	make -C source latexpdf                # Ejecuta `make latexpdf` dentro del directorio source/
 	mv source/_build/latex/*.pdf $(OUTPUT_DIR)/  # Mueve el PDF generado al directorio de salida
 
@@ -26,11 +27,11 @@ all: $(PNG_FILES)
 $(OUTPUT_DIR):
 	mkdir -p $(OUTPUT_DIR)
 
-# Regla para convertir un archivo SVG a PNG usando Inkscape
+# Convertir un archivo SVG a PNG usando svg2png.py
 # $< representa el archivo de entrada (SVG)
 # $@ representa el archivo de salida (PNG)
 source/assets/%.png: source/assets/%.svg | $(OUTPUT_DIR)
-	python svg2png.py "$<" -W 500 -H 500 -O "$@"
+	python svg2png.py "$<" -O "$@"
 
 # Regla para limpiar: elimina el directorio de salida y los archivos temporales generados por Sphinx
 clean:
