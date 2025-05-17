@@ -8,18 +8,16 @@ variables:
 
 before_script:
   - apk update
-  - apk add --no-cache \
-      inkscape \
-      texlive \
-      texlive-latexextra \
-      texmf-dist-latexmk \
-      make \
-      git \
-      py3-pip \
-      musl-dev \
-      gcc \
-      libffi-dev \
-      python3-dev
+  - apk add --no-cache inkscape
+  - apk add --no-cache texlive
+  - apk add --no-cache texlive-latexextra
+  - apk add --no-cache make
+  - apk add --no-cache git
+  - apk add --no-cache py3-pip
+  - apk add --no-cache musl-dev
+  - apk add --no-cache gcc
+  - apk add --no-cache libffi-dev
+  - apk add --no-cache python3-dev
   - pip install sphinx
 
 build_manual:
