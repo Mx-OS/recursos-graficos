@@ -18,6 +18,8 @@ build_manual:
   stage: build
   script:
     - make
+    - inkscape --version
+    - man inkscape
   artifacts:
     paths:
       - output/
