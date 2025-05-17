@@ -1,0 +1,28 @@
+# Usa una imagen liviana basada en Alpine con Python 3.13
+image: python:3.13-alpine
+
+stages:
+  - build  # Etapa única para compilar el manual y generar los artefactos
+
+variables:
+  PIP_DISABLE_PIP_VERSION_CHECK: "1"  # Evita los mensajes de advertencia al instalar con pip
+  PYTHONUNBUFFERED: "1"  # Muestra los logs de Python sin buffering (útil para depuración)
+
+before_script:
+  # Actualiza índices de paquetes e instala dependencias de sistema necesarias
+  - apk update
+  - apk add --no-cache build-base    # herramientas de compilación: gcc, make, etc.
+  - apk add --no-cache texlive-full  # LaTeX completo (esto puede ser pesado)
+  - apk add --no-cache py3-cairosvg py3-pillow py3-lxml py3-cssselect
+  # Instala las herramientas Python necesarias para la documentación
+  - pip install --upgrade pip
+  - pip install sphinx sphinx-design
+
+build_manual:
+  stage: build
+  script:
+    - make  # Ejecuta el makefile que compila los SVG y genera el PDF con Sphinx
+  artifacts:
+    paths:
+      - output/  # El PDF generado y los PNGs convertidos se guardan en este directorio
+    expire_in: 1 week  # Los artefactos estarán disponibles durante una semana
