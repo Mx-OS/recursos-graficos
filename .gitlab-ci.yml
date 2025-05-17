@@ -6,15 +6,17 @@ stages:
 variables:
   PIP_DISABLE_PIP_VERSION_CHECK: "1"
 
+
+# ---
 before_script:
   - apt-get update && apt-get install -y \
-      inkscape \
-      texlive-latex-recommended \
-      texlive-latex-extra \
-      texlive-fonts-recommended \
-      latexmk \
-      make \
-      git
+    inkscape \
+    texlive-latex-recommended \
+    texlive-latex-extra \
+    texlive-fonts-recommended \
+    latexmk \
+    make \
+    git
   - pip install sphinx
 
 build_manual:
