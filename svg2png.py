@@ -1,4 +1,11 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
+#
+# svg2png.py - Convierte un archivo SVG a PNG usando cairosvg.
+# Uso:
+#   ./svg2png.py archivo.svg [-O salida.png] [-W ancho] [-H alto]
+#
+# Si no se especifican dimensiones, se intentan leer del propio SVG.
+# Requiere: Python 3 y la librería cairosvg
 
 import argparse
 import os
@@ -27,13 +34,21 @@ def parse_svg_dimensions(file_path):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Convierte un archivo SVG a PNG usando cairosvg"
+        description="Convierte un archivo SVG a PNG usando cairosvg.\n"
+                    "Si no se proporcionan ancho (-W) o alto (-H), se toman del SVG.",
+        epilog="Ejemplo: ./svg2png.py logo.svg -W 300 -H 300 -O logo.png",
+        formatter_class=argparse.RawTextHelpFormatter
     )
-    parser.add_argument("input_svg", help="Ruta al archivo de entrada .svg")
+    parser.add_argument("input_svg", nargs="?", help="Ruta al archivo de entrada .svg")
     parser.add_argument("-O", "--output", help="Ruta del archivo de salida .png (opcional)")
     parser.add_argument("-W", "--width", type=int, help="Ancho del PNG (en píxeles)")
     parser.add_argument("-H", "--height", type=int, help="Alto del PNG (en píxeles)")
     args = parser.parse_args()
+
+    # Si no se pasa ningún argumento, mostrar ayuda
+    if args.input_svg is None:
+        parser.print_help()
+        sys.exit(0)
 
     input_path = args.input_svg
     if not os.path.isfile(input_path):

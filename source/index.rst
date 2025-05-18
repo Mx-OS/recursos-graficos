@@ -1,3 +1,4 @@
+==================================
 Manual de Identidad Visual - MxOS
 ==================================
 
@@ -7,9 +8,9 @@ Introducción
 
 **MxOS** es una distribución Linux segura, abierta y soberana para México. Ideal para el sector público, empresas, instituciones educativas y usuarios que buscan una alternativa Linux robusta, gratuita y adaptada a nuestro entorno. Este manual establece las bases para el uso coherente de su identidad visual.
 
-Versión: 1.0  
-Fecha: Mayo 2025  
-Autor: Fundación MxOS (en formación)  
+Versión: 0.1
+Fecha: Mayo 2025
+Autor: Fundación MxOS (en formación)
 Licencia: Creative Commons CC BY-SA 4.0
 
 Logotipo
@@ -40,6 +41,7 @@ Usos incorrectos:
 
 .. image:: assets/uso-incorrecto.png
    :width: 200px
+
 Colores Institucionales
 ========================
 
@@ -66,21 +68,18 @@ Los colores oficiales del sistema operativo MxOS representan su identidad visual
      - C: 0, M: 73, Y: 73, K: 37
      - Pantone 1807 C
 
-
-
 .. image:: assets/colores.png
    :width: 800px
-
 
 Tipografía
 ==========
 
 Las tipografías oficiales aseguran coherencia en todas las comunicaciones.
 
-- **Primaria**: *Fira Sans*  
+- **Primaria**: *Fira Sans*
   Fuente libre y de código abierto, ideal para textos corridos y títulos.
 
-- **Alternativa**: *Roboto*  
+- **Alternativa**: *Roboto*
   Fuente versátil y moderna, adecuada para interfaces digitales.
 
 Aplicaciones del Logotipo
@@ -118,4 +117,3 @@ Contacto
 - Sitio web: https://mx-os.mx/
 - Correo electrónico: contacto@mx-os.mx
 - Redes sociales: [Enlaces a redes sociales oficiales]
-

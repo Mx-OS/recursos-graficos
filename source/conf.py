@@ -9,7 +9,9 @@
 project = 'Manual de Identidad MxOS'
 copyright = '2025, Fundación MxOS'
 author = 'Fundación MxOS'
-release = '0.0.1'
+version = '0.1'
+release = '0.1'
+license = 'Creative Commons CC BY-SA 4.0'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration

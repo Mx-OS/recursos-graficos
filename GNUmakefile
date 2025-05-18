@@ -1,4 +1,4 @@
-# Fundación MX OS
+# Fundación MxOS
 #       (o_
 #  (o_  //\
 #  (/)_ V_/_
