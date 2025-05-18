@@ -9,7 +9,7 @@ all: $(PNGS)
 
 # Asegura que la carpeta output/ exista antes de exportar PNGs
 output/%.png: %.svg | output
-	inkscape "$<" -e "$@" --export-width=500 --export-height=500
+	inkscape --export-width=500 --export-height=500 -o "$@" "$<"
 
 # Regla para crear la carpeta output si no existe
 output:
