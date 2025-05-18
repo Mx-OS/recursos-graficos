@@ -21,4 +21,4 @@ software
 
 fuentes
 -------
-* [Metrophobic](https://github.com/googlefonts/MetrophobicFont)
+* `Metrophobic <https://github.com/googlefonts/MetrophobicFont>`_
