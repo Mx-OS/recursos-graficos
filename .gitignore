@@ -88,3 +88,8 @@ __pycache__/
 *.pyc
 
 
+
+# === Python y Sphinx ===
+.venv/
+source/_build/
+source/assets/*png

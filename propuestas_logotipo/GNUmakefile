@@ -9,7 +9,7 @@ all: $(PNGS)
 
 # Asegura que la carpeta output/ exista antes de exportar PNGs
 output/%.png: %.svg | output
-	inkscape --export-width=500 --export-height=500 -o "$@" "$<"
+	python ../svg2png.py "$<" -W 500 -H 500 -O "$@"
 
 # Regla para crear la carpeta output si no existe
 output:

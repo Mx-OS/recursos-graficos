@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+Propuesta 02 para logotipo proyecto MxOS.
+Autor: Miguel Angel Marcial Martinez @fitorec
+Licencia: Creative Commons CC BY-SA 4.0
+-->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="150mm"
+   height="150mm"
+   viewBox="0 0 150 150"
+   version="1.1"
+   id="propuesta-02"
+   sodipodi:docname="uso-correcto.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="697"
+     id="namedview30"
+     showgrid="false"
+     inkscape:zoom="0.41627778"
+     inkscape:cx="283.46457"
+     inkscape:cy="283.46457"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="propuesta-02" />
+  <defs
+     id="defs248">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter3238"
+       x="-0.026996003"
+       width="1.053992"
+       y="-0.05401599"
+       height="1.108032">
+      <feGaussianBlur
+         stdDeviation="0.72001796"
+         id="feGaussianBlur3240" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter3250"
+       x="-0.017742332"
+       width="1.0354847"
+       y="-0.03707692"
+       height="1.0741538">
+      <feGaussianBlur
+         stdDeviation="0.50545754"
+         id="feGaussianBlur3252" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter3190"
+       x="-0.024"
+       width="1.048"
+       y="-0.024"
+       height="1.048">
+      <feGaussianBlur
+         stdDeviation="1.6404166"
+         id="feGaussianBlur3192" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter3376"
+       x="-0.11876316"
+       width="1.2375263"
+       y="-0.22725242"
+       height="1.4545048">
+      <feGaussianBlur
+         stdDeviation="3.2142434"
+         id="feGaussianBlur3378" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter3304"
+       x="-0.061970063"
+       width="1.1239401"
+       y="-0.13033222"
+       height="1.2606643">
+      <feGaussianBlur
+         stdDeviation="1.7767668"
+         id="feGaussianBlur3306" />
+    </filter>
+  </defs>
+  <metadata
+     id="metadata251">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect
+     style="opacity:1;fill:#00aa88;fill-opacity:1;stroke:#1a1a1a;stroke-width:4.43677521;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+     id="rect3116"
+     width="145.56322"
+     height="145.56322"
+     x="2.2183876"
+     y="2.218399"
+     ry="23.477942" />
+</svg>
