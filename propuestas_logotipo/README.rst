@@ -107,6 +107,12 @@ La siguiente tabla contiene la lista de los logotipos propuestos asta ahora:
    * - `tlc2.svg <./tlc2.svg>`__
      - `@fitorec Miguel A. Marcial Mtz <https://gitlab.com/fitorec>`__
      - Tlacuache propuesta 2
+   * - `g-01.svg <./g-01.svg>`__
+     - `@heyoferu <https://gitlab.com/heyoferu>`__
+     - Cuadros cardinales g-01
+   * - `g-02.svg <./g-02.svg>`__
+     - `@heyoferu <https://gitlab.com/heyoferu>`__
+     - Cuadros cardinales g-02
 
 Generando PNGs
 ==============
