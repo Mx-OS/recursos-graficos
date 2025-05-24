@@ -41,9 +41,6 @@ La siguiente tabla contiene la lista de los logotipos propuestos asta ahora:
    * - `06.svg <./06.svg>`__
      - `@fitorec Miguel A. Marcial Mtz <https://gitlab.com/fitorec>`__
      - Chile rojo
-   * - `07.svg <./07.svg>`__
-     - `@fitorec Miguel A. Marcial Mtz <https://gitlab.com/fitorec>`__
-     - Aguila de hecho en México
    * - `08.svg <./08.svg>`__
      - `@heyoferu <https://gitlab.com/heyoferu>`__
      - Simbología representativa de México
@@ -113,6 +110,41 @@ La siguiente tabla contiene la lista de los logotipos propuestos asta ahora:
    * - `g-02.svg <./g-02.svg>`__
      - `@heyoferu <https://gitlab.com/heyoferu>`__
      - Cuadros cardinales g-02
+     * - `p0.svg <./p0.svg>`__
+     - `@fitorec Miguel A. Marcial Mtz <https://gitlab.com/fitorec>`__
+     - Pirámide propuesta 0
+     * - `p1.svg <./p0.svg>`__
+     - `@fitorec Miguel A. Marcial Mtz <https://gitlab.com/fitorec>`__
+     - Pirámide propuesta 0
+     * - `p1.svg <./p1.svg>`__
+     - `@fitorec Miguel A. Marcial Mtz <https://gitlab.com/fitorec>`__
+     - Pirámide propuesta 1
+     * - `p2.svg <./p2.svg>`__
+     - `@fitorec Miguel A. Marcial Mtz <https://gitlab.com/fitorec>`__
+     * - `a0.svg <./a0.svg>`__
+     - `@fitorec Miguel A. Marcial Mtz <https://gitlab.com/fitorec>`__
+     - Aguila de hecho en México
+     * - `a1.svg <./a1.svg>`__
+     - `@fitorec Miguel A. Marcial Mtz <https://gitlab.com/fitorec>`__
+     - Aguila Propuesta 1
+     * - `a2.svg <./a2.svg>`__
+     - `@fitorec Miguel A. Marcial Mtz <https://gitlab.com/fitorec>`__
+     - Aguila Propuesta 2
+     * - `a3.svg <./a3.svg>`__
+     - `@fitorec Miguel A. Marcial Mtz <https://gitlab.com/fitorec>`__
+     - Aguila Propuesta 3
+     * - `a4.svg <./a4.svg>`__
+     - `@fitorec Miguel A. Marcial Mtz <https://gitlab.com/fitorec>`__
+     - Aguila Propuesta 4
+     * - `ch0.svg <./ch0.svg>`__
+     - `@fitorec Miguel A. Marcial Mtz <https://gitlab.com/fitorec>`__
+     - Perro Chihuahua Propuesta 0
+     * - `ch1.svg <./ch1.svg>`__
+     - `@fitorec Miguel A. Marcial Mtz <https://gitlab.com/fitorec>`__
+     - Perro Chihuahua Propuesta 1
+     * - `ch2.svg <./ch2.svg>`__
+     - `@fitorec Miguel A. Marcial Mtz <https://gitlab.com/fitorec>`__
+     - Perro Chihuahua Propuesta 2
 
 Generando PNGs
 ==============
