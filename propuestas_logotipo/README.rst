@@ -113,9 +113,6 @@ La siguiente tabla contiene la lista de los logotipos propuestos asta ahora:
      * - `p0.svg <./p0.svg>`__
      - `@fitorec Miguel A. Marcial Mtz <https://gitlab.com/fitorec>`__
      - Pirámide propuesta 0
-     * - `p1.svg <./p0.svg>`__
-     - `@fitorec Miguel A. Marcial Mtz <https://gitlab.com/fitorec>`__
-     - Pirámide propuesta 0
      * - `p1.svg <./p1.svg>`__
      - `@fitorec Miguel A. Marcial Mtz <https://gitlab.com/fitorec>`__
      - Pirámide propuesta 1
