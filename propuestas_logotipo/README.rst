@@ -145,6 +145,12 @@ La siguiente tabla contiene la lista de los logotipos propuestos asta ahora:
      * - `ch2.svg <./ch2.svg>`__
      - `@fitorec Miguel A. Marcial Mtz <https://gitlab.com/fitorec>`__
      - Perro Chihuahua Propuesta 2
+     * - `chpln00.svg <./chpln00.svg>`__
+     - `@fitorec Miguel A. Marcial Mtz <https://gitlab.com/fitorec>`__
+     - Chapulín Propuesta 0
+     * - `chpln01.svg <./chpln01.svg>`__
+     - `@fitorec Miguel A. Marcial Mtz <https://gitlab.com/fitorec>`__
+     - Chapulín Propuesta 1
 
 Generando PNGs
 ==============
