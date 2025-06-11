@@ -148,6 +148,12 @@ La siguiente tabla contiene la lista de los logotipos propuestos asta ahora:
      * - `chpln01.svg <./chpln01.svg>`__
      - `@fitorec Miguel A. Marcial Mtz <https://gitlab.com/fitorec>`__
      - Chapulín Propuesta 1
+     * - `logo.svg <./logo.svg>`__
+     - `@fitorec Miguel A. Marcial Mtz <https://gitlab.com/fitorec>`__
+     - Logo con fondo color Blanco
+     * - `logo_fondo_negro.svg <./logo_fondo_negro.svg>`__
+     - `@fitorec Miguel A. Marcial Mtz <https://gitlab.com/fitorec>`__
+     - Logo con fondo color Negro
 
 Generando PNGs
 ==============
