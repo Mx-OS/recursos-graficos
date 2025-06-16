@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Manual de Identidad MxOS'
+project = 'Manual de Identidad Visual MxOS'
 copyright = '2025, Fundación MxOS'
 author = 'Fundación MxOS'
 version = '0.1'
