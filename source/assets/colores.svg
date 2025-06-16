@@ -5,11 +5,35 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="propuesta-03"
    version="1.1"
    viewBox="0 0 317.5 79.374999"
    height="300"
-   width="1200">
+   width="1200"
+   sodipodi:docname="colores.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="697"
+     id="namedview15"
+     showgrid="false"
+     inkscape:zoom="0.40894342"
+     inkscape:cx="488.08955"
+     inkscape:cy="238.28317"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="propuesta-03" />
   <defs
      id="defs248" />
   <metadata
@@ -24,62 +48,100 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
+  <rect
+     style="opacity:1;fill:#389476;fill-opacity:1;stroke:none;stroke-width:1.23734534;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+     id="rect906"
+     width="66.145836"
+     height="44.346638"
+     x="11.36666"
+     y="17.778963"
+     ry="0" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:7.02564096px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.05384612"
+     x="18.590847"
+     y="41.890507"
+     id="text912"><tspan
+       id="tspan910"
+       x="18.590847"
+       y="41.890507"
+       style="fill:#ffffff;stroke-width:1.05384612">Verde Principal</tspan></text>
   <g
-     transform="translate(0,-217.625)"
-     id="layer1">
+     id="g919"
+     transform="translate(65.14547,3.3900188)">
     <rect
-       ry="0"
-       y="232.01395"
-       x="12.442637"
-       height="44.346638"
-       width="80"
-       id="rect906"
-       style="opacity:1;fill:#00815b;fill-opacity:1;stroke:none;stroke-width:1.36076987;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
-    <text
-       id="text912"
-       y="256.12549"
-       x="26.593906"
-       style="font-style:normal;font-weight:normal;font-size:7.02564096px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.05384612"
-       xml:space="preserve"><tspan
-         style="fill:#ffffff;stroke-width:1.05384612"
-         y="256.12549"
-         x="26.593906"
-         id="tspan910">Verde Principal</tspan></text>
-    <rect
-       ry="0"
-       y="232.01395"
-       x="121.08661"
-       height="44.346638"
-       width="80"
-       id="rect908"
-       style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:1.36076987;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:7.02564096px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:1.05384612"
-       x="123.05106"
-       y="256.80643"
-       id="text916"><tspan
-         id="tspan914"
-         x="123.05106"
-         y="256.80643"
-         style="fill:#1a1a1a;stroke-width:1.05384612">Gris Claro Secundario</tspan></text>
-    <rect
-       style="opacity:1;fill:#a02c2c;fill-opacity:1;stroke:none;stroke-width:1.36076987;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       style="opacity:1;fill:#a02c2c;fill-opacity:1;stroke:none;stroke-width:1.23734534;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
        id="rect904"
-       width="80"
+       width="66.145836"
        height="44.346638"
-       x="229.73059"
-       y="232.01395"
+       x="172.44264"
+       y="14.388944"
        ry="0" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:7.02564096px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.05384612"
-       x="262.02057"
-       y="256.12549"
+       x="197.80554"
+       y="38.500488"
        id="text920"><tspan
          id="tspan918"
-         x="262.02057"
-         y="256.12549"
+         x="197.80554"
+         y="38.500488"
          style="fill:#ffffff;stroke-width:1.05384612">Rojo</tspan></text>
+  </g>
+  <g
+     id="g914"
+     transform="translate(-157.89508,-1.2658028)">
+    <rect
+       ry="0"
+       y="19.044765"
+       x="244.66888"
+       height="44.346638"
+       width="66.145836"
+       id="rect834"
+       style="opacity:1;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1.23734534;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+    <text
+       id="text886"
+       y="38.549816"
+       x="277.73621"
+       style="font-style:normal;font-weight:normal;font-size:7.64281654px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.14642251"
+       xml:space="preserve"><tspan
+         id="tspan888"
+         style="text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:1.14642251"
+         y="38.549816"
+         x="277.73621"
+         sodipodi:role="line">Gris Oscuro</tspan><tspan
+         id="tspan902"
+         style="text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:1.14642251"
+         y="48.103336"
+         x="277.73621"
+         sodipodi:role="line">Principal</tspan></text>
+  </g>
+  <g
+     id="g908"
+     transform="translate(69.819844,0.38995308)">
+    <rect
+       ry="0"
+       y="17.389009"
+       x="92.361115"
+       height="44.346638"
+       width="66.145836"
+       id="rect908"
+       style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:1.23734534;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.64281654px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.14642251"
+       x="125.39111"
+       y="37.63483"
+       id="text894"><tspan
+         sodipodi:role="line"
+         x="125.39111"
+         y="37.63483"
+         style="text-align:center;text-anchor:middle;fill:#000000;stroke-width:1.14642251"
+         id="tspan892">Gris claro</tspan><tspan
+         id="tspan898"
+         sodipodi:role="line"
+         x="125.39111"
+         y="47.188351"
+         style="text-align:center;text-anchor:middle;fill:#000000;stroke-width:1.14642251">Secundario</tspan></text>
   </g>
 </svg>

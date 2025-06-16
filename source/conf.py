@@ -50,6 +50,8 @@ html_theme_options = {
     }
 }
 
+latex_theme = 'howto'
+
 
 # pygments
 pygments_style = 'sphinx'
