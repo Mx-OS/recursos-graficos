@@ -18,26 +18,80 @@ Logotipo
 
 El logotipo de MxOS es el elemento central de su identidad visual. Se deben respetar sus proporciones, colores y espacio de protección.
 
-.. image:: assets/logo-principal.png
-   :width: 300px
+
 
 Versiones del logotipo:
+------------------------
 
-- **Principal**: A color sobre fondo blanco.
-- **Monocromático**: Blanco sobre fondo oscuro.
-- **Vertical**: Para espacios reducidos o formatos verticales.
 
-Espacio de protección:
+Principal
+~~~~~~~~~~
 
-.. image:: assets/logo-espacio.png
+.. figure:: assets/logo-principal.png
    :width: 300px
+   :align: center
+
+   Logotipo principal.
+
+
+Horizontal (banner)
+~~~~~~~~~~~~~~~~~~~
+
+.. image:: assets/logo_horizontal.png
+   :width: 900px
+
+
+Logos alternativos
+-------------------
+
+.. list-table::
+   :widths: 50 50
+   :align: center
+   :header-rows: 0
+
+   * - .. container:: logo-block
+
+          .. image:: assets/logo_oscuro.png
+             :width: 200px
+             :align: center
+
+          .. centered:: Logo oscuro
+
+     - .. container:: logo-block
+
+          .. image:: assets/logo-monocromatico.png
+             :width: 200px
+             :align: center
+
+          .. centered:: Logo Monocromatico
+
+   * - .. container:: logo-block
+
+          .. image:: assets/logo_gris.png
+             :width: 200px
+             :align: center
+
+          .. centered:: Logo gris
+
+     - .. container:: logo-block
+
+          .. image:: assets/logo_rojo.png
+             :width: 200px
+             :align: center
+
+          .. centered:: Logo rojo
+
+Usos correctos e incorrectos del logotipo:
+-------------------------------------------
 
 Usos correctos:
+~~~~~~~~~~~~~~~~
 
 .. image:: assets/uso-correcto.png
    :width: 200px
 
 Usos incorrectos:
+~~~~~~~~~~~~~~~~~
 
 .. image:: assets/uso-incorrecto.png
    :width: 200px
@@ -56,17 +110,27 @@ Los colores oficiales del sistema operativo MxOS representan su identidad visual
      - CMYK
      - Pantone
    * - Verde Principal
-     - ``#00815b``
-     - C: 100, M: 0, Y: 72, K: 49
-     - Pantone 3425 C
+     - `#389476`
+     - C: 62, M: 0, Y: 20, K: 42
+     - 338 U
    * - Gris Claro Secundario
-     - ``#e6e6e6``
+     - `#e6e6e6`
      - C: 0, M: 0, Y: 0, K: 10
-     - Pantone Cool Gray 1 C
+     - Cool Gray 1 C
    * - Rojo
-     - ``#a02c2c``
+     - `#a02c2c`
      - C: 0, M: 73, Y: 73, K: 37
-     - Pantone 1807 C
+     - 1807 C
+   * - Gris Oscuro
+     - `#333333`
+     - C: 0, M: 0, Y: 0, K: 80
+     - Cool Gray 11 C
+   * - Fondo (Blanco)
+     - `#ffffff`
+     - C: 0, M: 0, Y: 0, K: 0
+     - White (sin color PMS)
+
+
 
 .. image:: assets/colores.png
    :width: 800px
@@ -94,9 +158,6 @@ Ejemplos:
 - Sitios web
 - Material promocional
 
-.. image:: assets/logo-principal.png
-   :width: 400px
-
 Tono de Comunicación
 ====================
 
@@ -105,11 +166,6 @@ El lenguaje utilizado en las comunicaciones de MxOS debe ser:
 - **Formal pero accesible**: Claro y directo, sin tecnicismos innecesarios.
 - **Inclusivo**: Evitar sesgos de género y promover la diversidad.
 - **Centrado en la soberanía tecnológica**: Resaltar la importancia de la autonomía digital.
-
-Licenciamiento
-==============
-
-Este manual y los recursos gráficos están disponibles bajo la licencia Creative Commons CC BY-SA 4.0. Puedes usarlos y adaptarlos libremente, siempre y cuando atribuyas a la Fundación MxOS y compartas con la misma licencia.
 
 Contacto
 ========
