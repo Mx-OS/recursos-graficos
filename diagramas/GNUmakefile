@@ -15,13 +15,16 @@ all: mxos-general.pdf mxos-general.png mxos-general.svg mxos-general.txt mxos-re
 %.txt: %.d2
 	d2 $*.d2 $@
 
-.PHONY = watch
-watch:
-	d2 -w *.d2
-
 .PHONY = clean
 clean:
 	rm -f *.pdf
 	rm -f *.png
 	rm -f *.svg
 	rm -f *.txt
+
+fmt: $(src)
+	d2 fmt $^
+
+validate: $(src)
+	d2 validate $^
+
