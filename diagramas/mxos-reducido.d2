@@ -1,0 +1,21 @@
+# Establecemos la dirección general del diagrama de arriba hacia abajo.
+direction: down
+
+# --- Nodos ---
+Comunidad: "Comunidad" { shape: rectangle }
+Consejo: "Consejo Directivo" { shape: rectangle }
+Director: "Director" { shape: rectangle }
+Comites: "Comités Técnicos y de Trabajo" { shape: cloud }
+
+# --- Conexiones ---
+Comunidad -> Consejo: "Elige, supervisa y tiene poder de revocatoria"
+Consejo -> Director: "Nombra y remueve"
+Director -> Consejo: "Reporta a"
+
+# A esta conexión se le añade un estilo de línea punteada.
+Comunidad -> Comites: "Puede crear" {
+  style.stroke-dash: 4
+}
+
+Consejo -> Comites: "Puede crear"
+Comites -> Consejo: "Reportan a"
