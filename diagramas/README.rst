@@ -4,8 +4,8 @@ MxOS Diagramas
 
 Descripción
 ===========
-Este repositorio contiene recursos gráficos para los diagramas de MxOS. Los diagramas están definidos en formato D2 (Diagram as
-Code) y se generan automáticamente en formatos PNG y SVG.
+Este repositorio contiene recursos gráficos para los diagramas de MxOS. Los diagramas están definidos en formato D2 (Declarative
+Diagramming) y se generan automáticamente en formatos PDF, PNG, SVG y TXT.
 
 Archivos
 --------
@@ -28,7 +28,15 @@ Para generar los diagramas, necesitas tener D2 instalado. Ejecuta el siguiente c
 
    make
 
-Esto generará los archivos PNG y SVG a partir de los archivos D2.
+Esto generará los archivos PDF, PNG, SVG y TXT a partir de los archivos D2.
+
+También, puedes generar archivos individuales con:
+
+.. code-block:: bash
+
+   make mxos-general.png
+
+por ejemplo. Las recetas se generan automáticamente para cualquier nuevo diagrama que agreguemos.
 
 
 Contribución
