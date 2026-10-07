@@ -1,76 +1,53 @@
+.. image:: logo/logo_horizontal.svg
+   :alt: Logotipo Oficial de la Fundación MxOS
+   :align: center
+   :width: 260px
+
 ============================================
 Recursos Gráficos de la Fundación MxOS
 ============================================
 
-Este repositorio alberga el acervo oficial de identidad visual, logotipos maestros, manuales de marca, fondos de pantalla y diagramas arquitectónicos de la Fundación MxOS.
+Acervo oficial de identidad visual, logotipos maestros de producción, manual de marca, fondos de pantalla y diagramas de arquitectura de la `Fundación MxOS <https://mx-os.mx/>`_.
 
-Estructura del Repositorio
-==========================
-
-* ``logo/``: Logotipos e imagotipos oficiales de producción, basados en la propuesta ganadora comunitaria (**a2**).
-* ``wallpapers/``: Ilustraciones panorámicas y fondos de pantalla oficiales del sistema operativo.
-* ``diagramas/``: Diagramas declarativos de arquitectura, gobernanza y soberanía técnica en formato D2.
-* ``posters/``: Carteles y material visual de difusión institucional y comunitaria.
-* ``source/``: Fuentes en Sphinx del *Manual de Identidad Visual* de MxOS.
-* ``propuestas_logotipo/``: Acervo histórico de todas las propuestas vectoriales evaluadas durante el concurso de identidad visual.
-
-Logotipo Oficial
-================
-
-El logotipo institucional de MxOS representa la cabeza estilizada de un águila real mexicana en tonalidades verde bandera, terracota y dorado. El diseño fue seleccionado por la comunidad mediante proceso de votación a partir de la propuesta **a2** creada por `@fitorec <https://gitlab.com/fitorec>`_.
-
-En el directorio ``logo/`` se encuentran disponibles los archivos maestros:
-
-* ``logo/isotipo.svg`` / ``logo/a2.svg``: Símbolo esencial del águila.
-* ``logo/logo_horizontal.svg``: Versión horizontal con imagotipo e identificador "MxOS".
-* ``logo/logo_vertical.svg``: Versión vertical para portadas y bloqueos de pantalla.
-* ``logo/logo_fondo_blanco.svg``: Variante con contenedor circular blanco.
-* ``logo/logo_fondo_negro.svg``: Variante con contenedor circular oscuro.
-* ``logo/pattern.svg``: Patrón geométrico decorativo para fondos y cintillos.
-
-Requisitos de Compilación
-=========================
-
-* **GNU Make**: Sistema de compilación y ejecución de metas.
-* **Python 3 con CairoSVG**: Rasterización de vectores SVG a PNG (``pip install cairosvg``).
-* **D2**: Compilador de diagramas declarativos (``d2``).
-* **Sphinx con Furo**: Compilador de documentación técnica (``pip install sphinx furo sphinx-design``).
-
-Comandos Disponibles
-====================
+Estructura
+==========
 
 .. list-table::
    :widths: 25 75
    :header-rows: 1
 
-   * - Comando
-     - Acción
-   * - ``make`` o ``make all``
-     - Compila los logotipos oficiales, fondos de pantalla y diagramas arquitectónicos.
-   * - ``make logo``
-     - Rasteriza todas las variantes del logotipo en ``logo/output/``.
-   * - ``make wallpapers``
-     - Genera los fondos de pantalla a resolución QHD (2560x1440) en ``wallpapers/output/``.
-   * - ``make diagramas``
-     - Compila los diagramas D2 a formatos PNG, PDF y SVG.
-   * - ``make manual-html``
-     - Compila el *Manual de Identidad Visual* en HTML (ubicado en ``source/_build/html/``).
-   * - ``make clean``
-     - Elimina todos los directorios de salida y archivos temporales generados.
+   * - Directorio
+     - Descripción
+   * - ``logo/``
+     - Logotipos maestros oficiales en SVG y versiones rasterizadas, basados en la propuesta comunitaria **a2** de `@fitorec <https://gitlab.com/fitorec>`_.
+   * - ``wallpapers/``
+     - Fondos de pantalla e ilustraciones para el entorno de escritorio.
+   * - ``diagramas/``
+     - Diagramas declarativos de arquitectura y soberanía técnica en D2.
+   * - ``source/``
+     - Fuentes del *Manual de Identidad Visual* en Sphinx.
+   * - ``posters/``
+     - Carteles de difusión institucional y comunitaria.
+   * - ``propuestas_logotipo/``
+     - Acervo histórico del concurso comunitario de diseño.
+
+Compilación
+===========
+
+Requisitos: GNU Make, Python 3 con CairoSVG, D2 y Sphinx.
+
+.. code-block:: bash
+
+   make              # Compila logotipos, fondos y diagramas
+   make logo         # Rasteriza variantes del logotipo en logo/output/
+   make wallpapers   # Genera fondos QHD (2560x1440) en wallpapers/output/
+   make diagramas    # Genera diagramas en PNG, SVG y PDF
+   make manual-html  # Compila el manual Sphinx en source/_build/html/
+   make clean        # Limpia archivos generados
 
 Licencia
 ========
 
-Este proyecto implementa una estructura de licenciamiento dual para proteger tanto el software de conversión como el acervo gráfico original:
-
-* **Herramientas de conversión, scripts y compilación:** El script rasterizador ``svg2png.py`` y los archivos ``GNUmakefile`` se distribuyen bajo los términos de la `GNU General Public License v3.0 o posterior`_ (GPL-3.0-or-later).
-* **Diseños gráficos, diagramas, posters y fondos de pantalla:** Todo el material artístico, ilustraciones vectoriales, logotipos derivados, carteles y fondos de pantalla se distribuyen bajo la licencia `Creative Commons Attribution-ShareAlike 4.0 International`_ (CC-BY-SA-4.0).
-* **Identidad de marca y marcas registradas:** Los nombres, logotipos institucionales y marcas distintivas de la Fundación MxOS están reservados conforme a las políticas de marca de la organización.
-
-Consulta el archivo `LICENSE`_ para el texto íntegro de la licencia principal y el directorio ``LICENSES/`` para los textos canónicos de cumplimiento REUSE.
-
-..
-   Referencias y Enlaces:
-.. _GNU General Public License v3.0 o posterior: https://www.gnu.org/licenses/gpl-3.0.html
-.. _Creative Commons Attribution-ShareAlike 4.0 International: https://creativecommons.org/licenses/by-sa/4.0/
-.. _LICENSE: LICENSE
+* **Herramientas y scripts:** GPL-3.0-or-later (`LICENSE <LICENSE>`_).
+* **Arte, diagramas y fondos:** CC-BY-SA-4.0 (`LICENSES/ <LICENSES/>`_).
+* **Marca:** El nombre y los distintivos visuales están reservados conforme a las políticas de la Fundación MxOS.
