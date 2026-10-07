@@ -9,7 +9,7 @@ all: $(PNGS)
 
 # Asegura que la carpeta output/ exista antes de exportar PNGs
 output/%.png: %.svg | output
-	python ../svg2png.py "$<" -W 2560 -H 1440 -O "$@"
+	python3 ../svg2png.py "$<" -W 2560 -H 1440 -O "$@"
 
 # Regla para crear la carpeta output si no existe
 output:

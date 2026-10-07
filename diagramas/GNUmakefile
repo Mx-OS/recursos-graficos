@@ -15,7 +15,7 @@ all: mxos-general.pdf mxos-general.png mxos-general.svg mxos-general.txt mxos-re
 %.txt: %.d2
 	d2 $*.d2 $@
 
-.PHONY = clean
+.PHONY: all clean fmt validate
 clean:
 	rm -f *.pdf
 	rm -f *.png

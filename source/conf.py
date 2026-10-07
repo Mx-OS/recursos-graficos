@@ -7,10 +7,10 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Manual de Identidad Visual MxOS'
-copyright = '2025, Fundación MxOS'
+copyright = '2026, Fundación MxOS'
 author = 'Fundación MxOS'
-version = '0.1'
-release = '0.1'
+version = '1.0'
+release = '1.0'
 license = 'Creative Commons CC BY-SA 4.0'
 
 # -- General configuration ---------------------------------------------------

@@ -8,18 +8,18 @@ Introducción
 
 **MxOS** es una distribución Linux segura, abierta y soberana para México. Ideal para el sector público, empresas, instituciones educativas y usuarios que buscan una alternativa Linux robusta, gratuita y adaptada a nuestro entorno. Este manual establece las bases para el uso coherente de su identidad visual.
 
-Versión: 0.1
-Fecha: Mayo 2025
-Autor: Fundación MxOS (en formación)
+Versión: 1.0
+Fecha: Octubre 2026
+Autor: Fundación MxOS
 Licencia: Creative Commons CC BY-SA 4.0
 
 .. note::
-   Este manual esta inspirado en el `manual de marca del proyecto Fedora <https://docs.fedoraproject.org/es/project/brand/>`__
+   Este manual está inspirado en el `manual de marca del proyecto Fedora <https://docs.fedoraproject.org/es/project/brand/>`__
 
 Logotipo
 ========
 
-El logotipo de MxOS es el elemento central de su identidad visual. Se deben respetar sus proporciones, colores y espacio de protección.
+El logotipo de MxOS es el elemento central de su identidad visual. Fue seleccionado por la comunidad mediante votación a partir de la propuesta **a2** diseñada por `@fitorec <https://gitlab.com/fitorec>`_. Se deben respetar sus proporciones, colores y espacio de protección.
 
 
 
@@ -198,11 +198,17 @@ Los colores oficiales del sistema operativo MxOS representan su identidad visual
 .. image:: assets/colores.png
    :width: 800px
 
-Logotipos desde diferentes Sub-proyectos de MxOS
-================================================
+Estructura y Archivos Maestros
+==============================
 
-MxOS-Identity
---------------------
+Los archivos vectoriales oficiales listos para producción se encuentran centralizados en el directorio ``logo/`` del repositorio:
+
+* ``logo/isotipo.svg`` / ``logo/a2.svg``: Isotipo oficial ganador del águila.
+* ``logo/logo_horizontal.svg``: Imagotipo horizontal para sitios web y presentaciones.
+* ``logo/logo_vertical.svg``: Imagotipo vertical para portadas y bloqueos de pantalla.
+* ``logo/logo_fondo_blanco.svg``: Variante con contenedor circular blanco.
+* ``logo/logo_fondo_negro.svg``: Variante con contenedor circular oscuro.
+* ``logo/pattern.svg``: Patrón geométrico vectorial de plumaje.
 
 
 Aplicaciones del Logotipo

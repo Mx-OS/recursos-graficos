@@ -1,40 +1,53 @@
-# Fundación MxOS
+# Makefile maestro para recursos gráficos de Fundación MxOS
+#
 #       (o_
 #  (o_  //\
 #  (/)_ V_/_
 #
 
-# Directorio donde se colocarán los archivos de salida (PDF y PNGs)
 OUTPUT_DIR = output
+SVG2PNG = python3 svg2png.py
+SPHINXBUILD = sphinx-build
 
-# Encuentra todos los archivos SVG en source/assets/
-SVG_FILES = $(wildcard source/assets/*.svg)
+# Archivos SVG del manual en source/assets/
+MANUAL_SVGS = $(wildcard source/assets/*.svg)
+MANUAL_PNGS = $(patsubst source/assets/%.svg,source/assets/%.png,$(MANUAL_SVGS))
 
-# Define los nombres de los archivos PNG equivalentes para cada SVG
-# Ejemplo: source/assets/logo.svg -> source/assets/logo.png
-PNG_FILES = $(patsubst source/assets/%.svg,source/assets/%.png,$(SVG_FILES))
+.PHONY: all logo wallpapers diagramas propuestas manual-html clean
 
-# Define objetivos "falsos" que no representan archivos físicos
-.PHONY: all clean
+# Objetivo por defecto: compilar logotipos oficiales y fondos
+all: logo wallpapers diagramas
 
-# Objetivo por defecto: genera PNGs desde los SVGs y luego compila el PDF
-all: $(PNG_FILES)
-	make -C ./propuestas_logotipo  # Compila los PNGs de propuesta_logotipo/
-	make -C source latexpdf                # Ejecuta `make latexpdf` dentro del directorio source/
-	mv source/_build/latex/*.pdf $(OUTPUT_DIR)/  # Mueve el PDF generado al directorio de salida
+# Compilar logotipos oficiales a PNG
+logo:
+	$(MAKE) -C logo
 
-# Crea el directorio de salida si no existe
-$(OUTPUT_DIR):
-	mkdir -p $(OUTPUT_DIR)
+# Compilar fondos de pantalla a PNG
+wallpapers:
+	$(MAKE) -C wallpapers
 
-# Convertir un archivo SVG a PNG usando svg2png.py
-# $< representa el archivo de entrada (SVG)
-# $@ representa el archivo de salida (PNG)
-source/assets/%.png: source/assets/%.svg | $(OUTPUT_DIR)
-	python svg2png.py "$<" -O "$@"
+# Compilar diagramas de arquitectura D2
+diagramas:
+	$(MAKE) -C diagramas
 
-# Regla para limpiar: elimina el directorio de salida y los archivos temporales generados por Sphinx
+# Compilar archivo histórico de propuestas
+propuestas:
+	$(MAKE) -C propuestas_logotipo
+
+# Generar PNGs para los activos del manual
+source/assets/%.png: source/assets/%.svg
+	$(SVG2PNG) "$<" -O "$@"
+
+# Compilar el Manual de Identidad Visual en HTML con Sphinx
+manual-html: $(MANUAL_PNGS)
+	$(SPHINXBUILD) -b html source source/_build/html
+
+# Limpieza general
 clean:
-	rm -rf $(OUTPUT_DIR)                  # Elimina el directorio output/
-	rm -f source/assets/*.png             # Elimina los PNG generados
-	make -C source clean                  # Limpia la carpeta build/ de Sphinx
+	rm -rf $(OUTPUT_DIR)
+	rm -f source/assets/*.png
+	rm -rf source/_build
+	$(MAKE) -C logo clean
+	$(MAKE) -C wallpapers clean
+	$(MAKE) -C diagramas clean
+	$(MAKE) -C propuestas_logotipo clean
