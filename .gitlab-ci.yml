@@ -9,18 +9,20 @@ variables:
 
 before_script:
   - apk update
-  - apk add --no-cache build-base py3-cairosvg py3-pillow py3-lxml py3-cssselect
+  - apk add --no-cache build-base py3-cairosvg py3-pillow py3-lxml py3-cssselect font-liberation
   - pip install --no-cache-dir cairosvg sphinx sphinx-design furo
 
 build_assets:
   stage: build
   script:
     - make logo
+    - make brochures
     - make wallpapers
     - make manual-html
   artifacts:
     paths:
       - logo/output/
+      - brochures/output/
       - wallpapers/output/
       - source/_build/html/
     expire_in: 1 week

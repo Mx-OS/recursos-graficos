@@ -13,14 +13,18 @@ SPHINXBUILD = sphinx-build
 MANUAL_SVGS = $(wildcard source/assets/*.svg)
 MANUAL_PNGS = $(patsubst source/assets/%.svg,source/assets/%.png,$(MANUAL_SVGS))
 
-.PHONY: all logo wallpapers diagramas propuestas manual-html clean
+.PHONY: all logo brochures wallpapers diagramas propuestas manual-html clean
 
-# Objetivo por defecto: compilar logotipos oficiales y fondos
-all: logo wallpapers diagramas
+# Objetivo por defecto: compilar logotipos oficiales, folletos y fondos
+all: logo brochures wallpapers diagramas
 
 # Compilar logotipos oficiales a PNG
 logo:
 	$(MAKE) -C logo
+
+# Compilar folletos institucionales a PNG
+brochures:
+	$(MAKE) -C brochures
 
 # Compilar fondos de pantalla a PNG
 wallpapers:
@@ -48,6 +52,7 @@ clean:
 	rm -f source/assets/*.png
 	rm -rf source/_build
 	$(MAKE) -C logo clean
+	$(MAKE) -C brochures clean
 	$(MAKE) -C wallpapers clean
 	$(MAKE) -C diagramas clean
 	$(MAKE) -C propuestas_logotipo clean

@@ -2,34 +2,35 @@
 Logotipo Oficial de MxOS
 ==============================
 
-Este directorio contiene los archivos vectoriales maestros del logotipo e identidad gráfica oficial de la Fundación MxOS, basados en la propuesta ganadora del concurso comunitario (**propuesta a2** de `@fitorec <https://gitlab.com/fitorec>`_).
+Este directorio contiene los archivos vectoriales maestros del logotipo e identidad gráfica oficial de la Fundación MxOS, derivados directamente de la propuesta ganadora del concurso comunitario (**propuesta a2** de `@fitorec <https://gitlab.com/fitorec>`_).
 
 Archivos Vectoriales Disponibles
 ================================
 
-Isotipo Oficial
----------------
-
-* ``isotipo.svg`` / ``a2.svg``: Cabeza de águila estilizada en trazo vectorial limpio con colores oficiales verde, terracota y dorado. Adecuada para avatares, favicons, iconos de aplicación y elementos identitarios compactos.
-
-Imagotipo (Isotipo + Nombre)
+Logotipo Principal e Isotipo
 ----------------------------
 
-* ``logo_horizontal.svg``: Versión horizontal con el isotipo a la izquierda y el identificador tipográfico "MxOS" a la derecha. Ideal para barras de navegación, cabeceras de sitios web, documentos y firmas institucionales.
-* ``logo_sub_horizontal.svg``: Versión horizontal que incorpora la bajada institucional o subtítulo de la fundación.
-* ``logo_vertical.svg``: Versión vertical centrada con el isotipo sobre la palabra "MxOS". Adecuada para portadas de manuales, carteles y pantallas de bloqueo o inicio de sesión.
-* ``logo_sub_vertical.svg``: Versión vertical con subtítulo institucional inferior.
+* ``a2.svg``: Logotipo oficial maestro con la cabeza de águila estilizada, plumaje en tres trazos verdes y el identificador tipográfico ``MxOS`` integrado en su curvatura interior sobre fondo transparente.
+* ``isotipo.svg``: Símbolo puro del águila estilizada sin texto, centrado y con fondo transparente. Adecuado para avatares, favicons, iconos de aplicación y elementos compactos.
+
+Imagotipos de Composición Externa
+---------------------------------
+
+* ``logo_horizontal.svg``: Versión horizontal con el isotipo a la izquierda y el identificador ``MxOS`` a la derecha sobre fondo transparente.
+* ``logo_sub_horizontal.svg``: Banner horizontal con el isotipo a la izquierda, el identificador ``MxOS``, pleca divisoria roja y el lema *Distribución Linux segura, abierta y soberana para México*.
+* ``logo_vertical.svg``: Versión vertical centrada con el isotipo en la parte superior y la palabra ``MxOS`` debajo.
+* ``logo_sub_vertical.svg``: Versión vertical centrada con el isotipo, ``MxOS``, pleca divisoria roja y lema institucional en la base.
 
 Variantes de Contraste y Fondo
 ------------------------------
 
-* ``logo_fondo_blanco.svg``: Isotipo integrado sobre contenedor circular blanco, garantizando legibilidad sobre fondos oscuros o fotográficos.
-* ``logo_fondo_negro.svg``: Isotipo integrado sobre contenedor circular oscuro, para uso en interfaces nocturnas y fondos monocromáticos.
+* ``logo_fondo_blanco.svg``: Logotipo oficial sobre lienzo blanco sólido (``#ffffff``).
+* ``logo_fondo_negro.svg``: Logotipo oficial adaptado para fondos oscuros (``#191919``), con cabeza de águila en gris claro (``#e6e6e6``), sombra de plumaje en negro (``#000000``) y plumaje/tipografía en verde institucional.
 
-Elementos de Identidad Complementarios
---------------------------------------
+Elementos Simbólicos
+--------------------
 
-* ``pattern.svg``: Patrón geométrico decorativo derivado de las formas angulares del plumaje del águila. Apto para fondos sutiles, cintillos y material editorial.
+* ``pattern.svg``: Isotipo monocromático en gris claro (``#e6e6e6``) a tamaño compacto (48x48 px), apto para iconos simbólicos de escritorio, marcas de agua y patrones de fondo.
 
 Paleta de Color Oficial
 =======================
@@ -42,36 +43,44 @@ Paleta de Color Oficial
      - Hexadecimal
      - RGB
      - Uso
-   * - Verde Bandera
-     - ``#00815b``
-     - rgb(0, 129, 91)
-     - Color primario institucional, tipografía y plumas superiores
-   * - Terracota / Ámbar
-     - ``#a76350``
-     - rgb(167, 99, 80)
-     - Acento cálido en plumaje inferior
-   * - Ocre Claro
-     - ``#f5dc94``
-     - rgb(245, 220, 148)
-     - Tono de luminosidad y contraste
+   * - Verde Principal
+     - ``#389476``
+     - rgb(56, 148, 118)
+     - Plumaje del águila y acentos primarios
+   * - Verde Esmeralda
+     - ``#10b981``
+     - rgb(16, 185, 129)
+     - Identificador tipográfico ``MxOS`` en ``a2.svg``
    * - Gris Carbón
      - ``#333333``
      - rgb(51, 51, 51)
-     - Textos neutros y contrastes oscuros
-   * - Blanco Nieve
+     - Cabeza del águila, sombras y textos neutros
+   * - Rojo Institucional
+     - ``#a02c2c``
+     - rgb(160, 44, 44)
+     - Pleca divisoria y acentos secundarios
+   * - Gris Claro
+     - ``#e6e6e6``
+     - rgb(230, 230, 230)
+     - Cabeza del águila en versión oscura e icono simbólico
+   * - Fondo Oscuro
+     - ``#191919``
+     - rgb(25, 25, 25)
+     - Lienzo de contraste nocturno
+   * - Blanco
      - ``#ffffff``
      - rgb(255, 255, 255)
-     - Fondos y contenedor de contraste
+     - Lienzo de contraste claro
 
 Tipografía de Marca
 ===================
 
-El logotipo compuesto utiliza la tipografía **Nimbus Sans** (Bold) para la palabra "MxOS". Para aplicaciones técnicas y código fuente se utiliza **Hack**, y para textos continuos **Fira Sans** o **Roboto**.
+El identificador ``MxOS`` en ``a2.svg`` está trazado a curvas a partir de **Metrophobic**. Para lemas, documentación técnica, interfaz y código fuente se utiliza **Hack**, acompañada de **Fira Sans** o **Roboto** como fuentes secundarias.
 
 Exportación a PNG
 =================
 
-Para generar versiones rasterizadas (PNG) de todos los logotipos:
+Para generar versiones rasterizadas en formato PNG de todos los logotipos:
 
 .. code-block:: bash
 

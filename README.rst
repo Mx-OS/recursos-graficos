@@ -1,7 +1,7 @@
-.. image:: logo/logo_horizontal.svg
+.. image:: logo/a2.svg
    :alt: Logotipo Oficial de la Fundación MxOS
    :align: center
-   :width: 260px
+   :width: 220px
 
 ============================================
 Recursos Gráficos de la Fundación MxOS
@@ -20,6 +20,8 @@ Estructura
      - Descripción
    * - ``logo/``
      - Logotipos maestros oficiales en SVG y versiones rasterizadas, basados en la propuesta comunitaria **a2** de `@fitorec <https://gitlab.com/fitorec>`_.
+   * - ``brochures/``
+     - Folletos institucionales y trípticos informativos en SVG editables en Inkscape con tipografía Liberation Mono y códigos QR vectoriales.
    * - ``wallpapers/``
      - Fondos de pantalla e ilustraciones para el entorno de escritorio.
    * - ``diagramas/``
@@ -38,8 +40,9 @@ Requisitos: GNU Make, Python 3 con CairoSVG, D2 y Sphinx.
 
 .. code-block:: bash
 
-   make              # Compila logotipos, fondos y diagramas
+   make              # Compila logotipos, folletos, fondos y diagramas
    make logo         # Rasteriza variantes del logotipo en logo/output/
+   make brochures    # Rasteriza folletos y trípticos en brochures/output/
    make wallpapers   # Genera fondos QHD (2560x1440) en wallpapers/output/
    make diagramas    # Genera diagramas en PNG, SVG y PDF
    make manual-html  # Compila el manual Sphinx en source/_build/html/
